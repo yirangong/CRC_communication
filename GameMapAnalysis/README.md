@@ -12,7 +12,7 @@ This notebook analyzes and filters game map data used in a Unity-based road cons
 
 ---
 
-# MapSelectionNotebook Structure
+# MapSelection Notebook Structure
 This notebook is intended to:
 - Evaluate strategic depth of maps
 - Identify training vs. testing map sets
@@ -91,5 +91,6 @@ This notebook is intended to:
 - Export selected maps to Excel (`map_blocks.xlsx`) with city coordinates and starting positions per block.
 
 # MapVisualization Notebook Structure
-
+- MapGeneration.py generates maps with greedy and optimal solutions by providing a map indice.
+- MapVisualization_JG.ipynb generated maps with jointly greedy solutions by providing a list of map indices.
 
