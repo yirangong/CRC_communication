@@ -12,29 +12,29 @@ This notebook analyzes and filters game map data used in a Unity-based road cons
 
 ---
 
-# 🧭 MapSelectionNotebook Structure
+# MapSelectionNotebook Structure
 This notebook is intended to:
 - Evaluate strategic depth of maps
 - Identify training vs. testing map sets
 - Serve as a filtering stage before game integration
 - Provide visual and tabular summaries of map features
 
-### 1. ✅ Selecting Desired Maps
+### 1. Selecting Desired Maps
 - Filter maps by:
   - **Starting Position Distance** (Euclidean): 30–200 units
   - **Optimal Contribution Gap**: 25%–75%
 - Purpose: Avoid trivial or highly skewed maps.
 
-### 2. 🔍 Inspecting Basic Features
+### 2. Inspecting Basic Features
 - Visualize city coordinates.
 - Analyze spatial/geometric structure of maps.
 
-### 3. 📉 Exploratory Correlations
+### 3. Exploratory Correlations
 - Investigate:
   - Relationship between **number of optimal solutions** and **map depth**
   - Territory separation and suboptimality in player behavior
 
-### 4. 🧪 Map-Level Deep Dives
+### 4. Map-Level Deep Dives
 - For selected maps, inspect path sequences, budget usage, and turn-by-turn strategy differences.
 
 ---
@@ -87,9 +87,9 @@ This notebook is intended to:
   Average player contributions in optimal plays.
 
 ---
-## MapConversion Notebook Structure
+# MapConversion Notebook Structure
 - Export selected maps to Excel (`map_blocks.xlsx`) with city coordinates and starting positions per block.
 
-## MapVisualization Notebook Structure
+# MapVisualization Notebook Structure
 
 
