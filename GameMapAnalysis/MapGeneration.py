@@ -1,19 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 16 10:09:15 2024
-
-@author: yirangong
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jul 15 11:32:02 2022
-
-@author: narfa
-"""
-
-
 import scipy.io as sio
 import matplotlib.pyplot as plt
 import numpy as np
