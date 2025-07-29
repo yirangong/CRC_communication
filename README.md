@@ -2,6 +2,7 @@
 
 A behavioral experiment exploring how communication influences strategic planning in complex, asymmetric decision environments. Developed in Unity, this project simulates decision trees with varying structure and captures multimodal behavioral data to investigate when and how verbal communication supports collaboration.
 
+Done by Yiran and Nastaran (Ma Lab at NYU).
 ---
 
 ## 🚀 Motivation & Hypotheses
